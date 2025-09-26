@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Icon from '../../../components/AppIcon';
+import Icon from '../../../components/Appicon';
 
 const CompanyTimeline = () => {
   const [activeYear, setActiveYear] = useState(2010);

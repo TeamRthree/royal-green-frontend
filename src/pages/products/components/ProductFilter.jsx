@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Icon from '../../../components/AppIcon';
+import Icon from '../../../components/Appicon';
 import Button from '../../../components/ui/Button';
 import Select from '../../../components/ui/Select';
 import { Checkbox } from '../../../components/ui/Checkbox';

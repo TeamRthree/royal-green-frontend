@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet';
-import Icon from '../../components/AppIcon';
+import Icon from '../../components/Appicon';
 import Button from '../../components/ui/Button';
 import ProductCard from './components/ProductCard';
 import ProductFilter from './components/ProductFilter';
