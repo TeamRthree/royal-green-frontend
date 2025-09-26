@@ -14,7 +14,7 @@ const ProcessTransparency = () => {
       title: "Source Selection",
       subtitle: "Premium Raw Materials",
       description: "We carefully select the finest organic seeds and nuts from certified farms, ensuring only the highest quality raw materials enter our facility.",
-      image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400&h=300&fit=crop",
+      image: "https://media.istockphoto.com/id/1177630853/photo/ffax-seed-oil-and-flax-seeds.jpg?s=612x612&w=0&k=20&c=XOT-P2tX_6TYUJ1Tv7ph67kT6aES4UBUHWcFyLjDktg=",
       icon: "Leaf",
       details: [
         "Organic certified farms",
@@ -28,7 +28,7 @@ const ProcessTransparency = () => {
       title: "Cold Pressing",
       subtitle: "Traditional Methods",
       description: "Our traditional cold-pressing method preserves natural nutrients and flavors without heat or chemicals, maintaining the oil's therapeutic properties.",
-      image: "https://images.pexels.com/photos/4198019/pexels-photo-4198019.jpeg?w=400&h=300&fit=crop",
+      image: "https://image.made-in-china.com/365f3j00EeshgwGchZpR/Sesame-Oil-Press-Peanut-Black-Seed-Groundnut-Oil-Making-Machine.webp",
       icon: "Settings",
       details: [
         "No heat processing",
@@ -42,7 +42,7 @@ const ProcessTransparency = () => {
       title: "Quality Testing",
       subtitle: "Laboratory Verification",
       description: "Every batch undergoes rigorous testing in our state-of-the-art laboratory to ensure purity, potency, and safety standards are met.",
-      image: "https://images.pixabay.com/photo/2017/06/06/22/37/italian-cuisine-2378729_1280.jpg?w=400&h=300&fit=crop",
+      image: "https://media.istockphoto.com/id/1354700049/photo/yellow-liquid-is-pouring-into-a-measuring-vessel.jpg?s=612x612&w=0&k=20&c=TITSAI8AiJ9oXnr9xwdavYamnC1y8jTq7bTqrY51pWI=",
       icon: "FlaskConical",
       details: [
         "Purity analysis",
@@ -56,7 +56,7 @@ const ProcessTransparency = () => {
       title: "Packaging",
       subtitle: "Freshness Protection",
       description: "Our oils are packaged in dark glass bottles with nitrogen flushing to protect against oxidation and maintain freshness for longer periods.",
-      image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop",
+      image: "https://media.istockphoto.com/id/157287892/photo/olive-production.jpg?s=612x612&w=0&k=20&c=QUZN0ZyRR0_bN2SASSH6dsg9l8o2qWKSxz6aj88if8U=",
       icon: "Package",
       details: [
         "Dark glass protection",
@@ -122,7 +122,7 @@ const ProcessTransparency = () => {
   ];
 
   return (
-    <section id="process-transparency" className="py-20 bg-liquid-gold">
+    <section id="process-transparency" className="py-20 bg-[#fffce3]">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className={`text-center mb-16 transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
@@ -143,7 +143,7 @@ const ProcessTransparency = () => {
         {/* Quality Metrics */}
         <div className={`grid grid-cols-2 md:grid-cols-4 gap-6 mb-16 transform transition-all duration-1000 delay-200 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           {qualityMetrics?.map((metric, index) => (
-            <div key={metric?.id} className="bg-warm-cream rounded-xl p-6 text-center shadow-soft hover:shadow-premium transition-all duration-300">
+            <div key={metric?.id} className="bg-warm-cream rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300">
               <div className="w-12 h-12 bg-heritage-green rounded-full flex items-center justify-center mx-auto mb-3">
                 <Icon name={metric?.icon} size={20} className="text-liquid-gold" />
               </div>
@@ -262,7 +262,7 @@ const ProcessTransparency = () => {
 
         {/* CTA Section */}
         <div className={`text-center mt-16 transform transition-all duration-1000 delay-800 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          <div className="bg-warm-cream rounded-3xl p-8 md:p-12 shadow-premium max-w-4xl mx-auto">
+          <div className="bg-warm-cream rounded-3xl p-8 md:p-12 shadow-xl max-w-4xl mx-auto">
             <h3 className="font-heading text-2xl md:text-3xl font-bold text-heritage-green mb-4">
               Experience Our Commitment to Quality
             </h3>

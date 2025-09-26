@@ -25,71 +25,78 @@ const HealthBenefitsPreview = () => {
   }, []);
 
   const healthCategories = [
-    {
-      id: 1,
-      title: "Heart Health",
-      icon: "Heart",
-      color: "text-red-500",
-      bgColor: "bg-red-50",
-      description: "Support cardiovascular wellness with omega-rich oils that help maintain healthy cholesterol levels and promote circulation.",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&h=300&fit=crop",
-      benefits: [
-        "Reduces bad cholesterol (LDL)",
-        "Supports healthy blood pressure",
-        "Improves circulation",
-        "Rich in omega-3 fatty acids"
-      ],
-      oils: ["Sesame Oil", "Groundnut Oil"]
-    },
-    {
-      id: 2,
-      title: "Skin & Hair Care",
-      icon: "Sparkles",
-      color: "text-pink-500",
-      bgColor: "bg-pink-50",
-      description: "Nourish your skin and hair naturally with vitamin-rich oils that provide deep moisturization and protection.",
-      image: "https://images.pexels.com/photos/3997991/pexels-photo-3997991.jpeg?w=400&h=300&fit=crop",
-      benefits: [
-        "Deep moisturization",
-        "Anti-aging properties",
-        "Hair strength & shine",
-        "Natural UV protection"
-      ],
-      oils: ["Coconut Oil", "Sesame Oil"]
-    },
-    {
-      id: 3,
-      title: "Digestive Wellness",
-      icon: "Zap",
-      color: "text-green-500",
-      bgColor: "bg-green-50",
-      description: "Enhance digestive health with easily digestible oils that support nutrient absorption and gut wellness.",
-      image: "https://images.pixabay.com/photo/2017/06/06/22/37/italian-cuisine-2378729_1280.jpg?w=400&h=300&fit=crop",
-      benefits: [
-        "Improves nutrient absorption",
-        "Supports gut health",
-        "Easy digestion",
-        "Reduces inflammation"
-      ],
-      oils: ["Coconut Oil", "Groundnut Oil"]
-    },
-    {
-      id: 4,
-      title: "Immunity Boost",
-      icon: "Shield",
-      color: "text-blue-500",
-      bgColor: "bg-blue-50",
-      description: "Strengthen your immune system with antioxidant-rich oils that help protect against oxidative stress.",
-      image: "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?w=400&h=300&fit=crop",
-      benefits: [
-        "Rich in antioxidants",
-        "Boosts natural immunity",
-        "Anti-inflammatory properties",
-        "Supports cellular health"
-      ],
-      oils: ["Mustard Oil", "Sesame Oil"]
-    }
-  ];
+  {
+    id: 1,
+    title: "Heart Health",
+    icon: "Heart",
+    color: "text-red-500",
+    bgColor: "bg-red-50",
+    description: "Support cardiovascular wellness with oils that help maintain healthy cholesterol levels and promote circulation.",
+    image: "https://media.istockphoto.com/id/2204939987/photo/blood-pressure-glucose-and-weight-control-balanced-diet-and-exercising-for-a-healthy-living.jpg?s=612x612&w=0&k=20&c=uh-YrgdwUIOrTO0fkSGVT9KT7nJK9wLg56BfdPSnrXo=",
+    benefits: [
+      "Reduces bad cholesterol (LDL)",
+      "Supports healthy blood pressure",
+      "Improves circulation",
+      "Rich in natural nutrients"
+    ],
+    oils: ["Sunflower Oil", "Chekku Groundnut Oil", "Groundnut Oil", "Blended Edible Vegetable Oil", "Palmolein Oil"]
+  },
+  {
+    id: 2,
+    title: "Everyday Nutrition",
+    icon: "Sparkles",
+    color: "text-orange-500",
+    bgColor: "bg-orange-50",
+    description: "Enhance daily meals with oils that preserve natural vitamins, essential fatty acids, and provide balanced nutrition.",
+    image: "https://media.istockphoto.com/id/1477430966/photo/woman-preparing-quinoa-vegetable-mix-cooked-in-a-frying-pan.jpg?s=612x612&w=0&k=20&c=eGlflJ8A7Kg8SbidqJxDp9hzbG0ETt3saS7Z4Sf250g=",
+    benefits: [
+      "Retains natural vitamins",
+      "Supports balanced diet",
+      "Safe cooking without harmful chemicals",
+      "Versatile for all recipes"
+    ],
+    oils: [
+      "Sunflower Oil",
+      "Chekku Groundnut Oil",
+      "Groundnut Oil",
+      "Blended Edible Vegetable Oil",
+      "Palmolein Oil"
+    ]
+  },
+  {
+    id: 3,
+    title: "Digestive Wellness",
+    icon: "Zap",
+    color: "text-green-500",
+    bgColor: "bg-green-50",
+    description: "Enhance digestive health with easily digestible oils that support nutrient absorption and gut wellness.",
+    image: "https://media.istockphoto.com/id/1307095074/photo/adult-and-child-hands-holding-intestine-shape-healthy-bowel-degestion-leaky-gut-probiotics.jpg?s=612x612&w=0&k=20&c=WVtzvwAOtkoPHXSSzKgzArlXwUZmUWwoyAKbFcDfSqQ=",
+    benefits: [
+      "Improves nutrient absorption",
+      "Supports gut health",
+      "Easy digestion",
+      "Reduces inflammation"
+    ],
+    oils: ["Chekku Groundnut Oil", "Groundnut Oil", "Blended Edible Vegetable Oil"]
+  },
+  {
+    id: 4,
+    title: "Immunity Boost",
+    icon: "Shield",
+    color: "text-blue-500",
+    bgColor: "bg-blue-50",
+    description: "Strengthen your immune system with antioxidant-rich oils that help protect against oxidative stress.",
+    image: "https://media.istockphoto.com/id/1315846133/photo/female-doing-meditation-in-park-stock-photo.jpg?s=612x612&w=0&k=20&c=L3ewGOHBDzlbxoNh57yymKBCSF-LMv1_kHMrJNYpVvw=",
+    benefits: [
+      "Rich in antioxidants",
+      "Boosts natural immunity",
+      "Anti-inflammatory properties",
+      "Supports cellular health"
+    ],
+    oils: ["Sunflower Oil", "Palmolein Oil", "Blended Edible Vegetable Oil"]
+  }
+];
+
 
   const wellnessStats = [
     {

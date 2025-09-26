@@ -30,7 +30,7 @@ const ProductShowcase = () => {
       name: "Sunflower Oil",
       subtitle: "Cold-Pressed Excellence",
       description: "Physically refined, least or no use of chemicals, retains natural vitamins and nutrition",
-      image: "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=400&h=400&fit=crop",
+      image: "https://media.istockphoto.com/id/1186197556/photo/hair-remedy-of-all-purpose-ayurvedic-medicinal-herb-i-e-neem-or-nim-or-indian-lilac-in-a.jpg?s=612x612&w=0&k=20&c=dQ6vi_DSBwGNQgsvxrEnooGcVpNsvEBY1k_fm6-skj0=",
       benefits: ["Heart Health", "Skin Care", "Bone Strength"],
       purity: "99.8%",
       extraction: "Cold Pressed",
@@ -41,7 +41,7 @@ const ProductShowcase = () => {
       name: "Chekku Groundnut Oil",
       subtitle: "Traditional Strength",
       description: "AGMARK certified, traditionally processed via Rotary extraction (“Chekku”)",
-      image: "https://images.pexels.com/photos/4198019/pexels-photo-4198019.jpeg?w=400&h=400&fit=crop",
+      image: "https://media.istockphoto.com/id/953883278/photo/peanut-oil-on-a-table.jpg?s=612x612&w=0&k=20&c=ubwsr8CZlZT3Ku1MuL42eSBjElPNGLmJQSmb7UY-dPc=",
       benefits: ["Immunity Boost", "Hair Care", "Weight Management"],
       purity: "99.9%",
       extraction: "Virgin Cold Pressed",
@@ -52,7 +52,7 @@ const ProductShowcase = () => {
       name: "Blended Edible Vegetable Oil",
       subtitle: "Heart Healthy Choice",
       description: "Blend of raw Groundnut Oil + refined Palmolein Oil",
-      image: "https://images.pixabay.com/photo/2017/06/06/22/37/italian-cuisine-2378729_1280.jpg?w=400&h=400&fit=crop",
+      image: "https://www.foodrepublic.com/img/gallery/youll-probably-never-guess-what-vegetable-oil-actually-is/l-intro-1701371874.jpg",
       benefits: ["Joint Health", "Circulation", "Antimicrobial"],
       purity: "99.7%",
       extraction: "Wood Pressed",
@@ -63,7 +63,7 @@ const ProductShowcase = () => {
       name: "Royal Groundnut Oil",
       subtitle: "Virgin & Pure",
       description: "Light and flavorful groundnut oil with balanced fatty acids, perfect for everyday cooking needs.",
-      image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+      image: "https://media.istockphoto.com/id/1408296553/photo/peanut-oil-in-a-glass-jug-and-raw-peeled-groundnut-in-a-glass-bowl-over-gray-background.jpg?s=612x612&w=0&k=20&c=smSLbST6tLTBMhywWK9zwqw2sfahMefjDGdsWBjT704=",
       benefits: ["Heart Health", "Vitamin E", "Cooking Versatility"],
       purity: "99.6%",
       extraction: "Expeller Pressed",
@@ -75,7 +75,7 @@ const ProductShowcase = () => {
       name: "Premium Palmolein Oil",
       subtitle: "Refined & Light",
       description: "Crude Palmolein imported from Malaysia, processed in India, rich in Vitamin E",
-      image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+      image: "https://media.istockphoto.com/id/1390042990/photo/palm-oil-in-glass-tropical-leaves-and-fruits-on-grey-table-space-for-text.jpg?s=612x612&w=0&k=20&c=UjykjL6J2zpES9ARnZ59MlF_Nb9ycCt-S2vU55yZepY=",
       benefits: ["High Stability", "Long Shelf Life", "Perfect for Frying"],
       purity: "99.6%",
       extraction: "Refined from Palm Fruit",
@@ -92,7 +92,7 @@ const ProductShowcase = () => {
   };
 
   return (
-    <section id="product-showcase" className="py-20 bg-[#fffded]">
+    <section id="product-showcase" className="py-20 bg-[#fffce3]">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className={`text-center mb-16 transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>

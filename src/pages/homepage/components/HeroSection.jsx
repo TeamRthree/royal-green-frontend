@@ -59,7 +59,7 @@ const HeroSection = () => {
           {/* Text Content */}
           <div className={`space-y-8 transform transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}>
             <div className="space-y-4">
-              <div className="inline-flex items-center space-x-2 bg-liquid-gold/20 backdrop-blur-sm rounded-full px-4 py-2 border border-liquid-gold/30">
+              <div className="inline-flex items-center space-x-2 bg-liquid-gold/20 backdrop-blur-sm rounded-full px-4 py-2 border border-[#807d62]">
                 <Icon name="Award" size={16} className="text-liquid-gold" />
                 <span className="text-liquid-gold font-accent text-sm tracking-wide">Premium Organic Certified</span>
               </div>

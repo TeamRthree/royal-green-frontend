@@ -9,10 +9,11 @@ const Footer = () => {
     {
       title: "Products",
       links: [
-        { name: "Sesame Oil", path: "/products" },
-        { name: "Coconut Oil", path: "/products" },
-        { name: "Mustard Oil", path: "/products" },
-        { name: "Groundnut Oil", path: "/products" }
+        { name: "Sunflower Oil", path: "/products" },
+        { name: "Chekku Groundnut Oil", path: "/products" },
+        { name: "Blended Edible Vegetable Oil", path: "/products" },
+        { name: "Royal Groundnut Oil", path: "/products" },
+         { name: "Premium Palmolein Oil", path: "/products" }
       ]
     },
     {
@@ -68,26 +69,7 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-6">
             {/* Logo */}
             <Link to="/homepage" className="flex items-center space-x-3 group">
-              <div className="relative">
-                <div className="w-12 h-12 bg-gradient-to-br from-liquid-gold to-liquid-gold-dark rounded-full flex items-center justify-center shadow-warm group-hover:shadow-glow transition-all duration-300">
-                  <svg 
-                    className="w-7 h-7 text-white" 
-                    viewBox="0 0 24 24" 
-                    fill="currentColor"
-                  >
-                    <path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z" />
-                    <circle cx="12" cy="12" r="3" fill="rgba(255,255,255,0.3)" />
-                  </svg>
-                </div>
-              </div>
-              <div>
-                <h3 className="font-heading text-2xl font-bold text-white group-hover:text-liquid-gold transition-colors duration-300">
-                  Royal Green Oil
-                </h3>
-                <p className="font-accent text-sm text-liquid-gold tracking-wide">
-                  Liquid Gold for Wellness
-                </p>
-              </div>
+              <img src="/assets/images/royal_green_logo_white.png" alt="" />
             </Link>
 
             {/* Description */}
@@ -99,15 +81,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Icon name="MapPin" size={18} className="text-liquid-gold flex-shrink-0" />
-                <span className="text-warm-cream/80">123 Organic Valley, Green Hills, GH 12345</span>
+                <span className="text-warm-cream/80">101-A, Park Road, Erode - 638 003.</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Icon name="Phone" size={18} className="text-liquid-gold flex-shrink-0" />
-                <span className="text-warm-cream/80">+1 (555) 123-4567</span>
+                <span className="text-warm-cream/80">+91 424 2216777, +91 424 2216888</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Icon name="Mail" size={18} className="text-liquid-gold flex-shrink-0" />
-                <span className="text-warm-cream/80">info@royalgreenoil.com</span>
+                <span className="text-warm-cream/80">info@royalgreenoil.in</span>
               </div>
             </div>
 
