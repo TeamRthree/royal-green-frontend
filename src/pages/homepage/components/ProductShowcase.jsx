@@ -30,7 +30,7 @@ const ProductShowcase = () => {
       name: "Sunflower Oil",
       subtitle: "Cold-Pressed Excellence",
       description: "Physically refined, least or no use of chemicals, retains natural vitamins and nutrition",
-      image: "https://media.istockphoto.com/id/1186197556/photo/hair-remedy-of-all-purpose-ayurvedic-medicinal-herb-i-e-neem-or-nim-or-indian-lilac-in-a.jpg?s=612x612&w=0&k=20&c=dQ6vi_DSBwGNQgsvxrEnooGcVpNsvEBY1k_fm6-skj0=",
+      image: "https://media.istockphoto.com/id/1225886323/photo/rural-still-life-sunflower-oil-in-bottles-with-flowers-of-sunflower.jpg?s=612x612&w=0&k=20&c=creGf-CYWqoJOQTBzzy1Bdc5mu9oiwHNoi2hXQ1X3YI=",
       benefits: ["Heart Health", "Skin Care", "Bone Strength"],
       purity: "99.8%",
       extraction: "Cold Pressed",
@@ -105,7 +105,7 @@ const ProductShowcase = () => {
             Discover Our Liquid Gold
           </h2>
           
-          <p className="text-heritage-green/80 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
+          <p className="text-heritage-green/80 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
             Each oil in our collection represents generations of expertise, combining traditional extraction methods with modern quality standards to deliver pure wellness in every drop.
           </p>
         </div>
@@ -212,16 +212,7 @@ const ProductShowcase = () => {
                   </Button>
                 </Link>
                 
-                <Link to="/contact" className="flex-1">
-                  <Button 
-                    variant="outline" 
-                    size="lg"
-                    className="border-2 border-heritage-green text-heritage-green hover:bg-heritage-green hover:text-white w-full"
-                    
-                  >
-                    Get Sample
-                  </Button>
-                </Link>
+                
               </div>
             </div>
           </div>
@@ -242,20 +233,7 @@ const ProductShowcase = () => {
           </div>
         </div>
 
-        {/* View All Products CTA */}
-        <div className="text-center mt-16">
-          <Link to="/products">
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-2 border-liquid-gold text-liquid-gold hover:bg-liquid-gold hover:text-heritage-green"
-              iconName="ArrowRight"
-              iconPosition="right"
-            >
-              Explore Complete Collection
-            </Button>
-          </Link>
-        </div>
+        
       </div>
     </section>
   );

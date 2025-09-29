@@ -90,36 +90,7 @@ const ProcessTransparency = () => {
     return () => clearInterval(interval);
   }, [processSteps?.length]);
 
-  const qualityMetrics = [
-    {
-      id: 1,
-      metric: "99.8%",
-      label: "Purity Level",
-      icon: "Droplets",
-      description: "Achieved through our meticulous extraction process"
-    },
-    {
-      id: 2,
-      metric: "0°C",
-      label: "Processing Temp",
-      icon: "Thermometer",
-      description: "Cold-pressed to preserve natural nutrients"
-    },
-    {
-      id: 3,
-      metric: "24hrs",
-      label: "Farm to Press",
-      icon: "Clock",
-      description: "Maximum freshness from source to extraction"
-    },
-    {
-      id: 4,
-      metric: "100%",
-      label: "Batch Tested",
-      icon: "CheckCircle",
-      description: "Every batch undergoes comprehensive testing"
-    }
-  ];
+  
 
   return (
     <section id="process-transparency" className="py-20 bg-[#fffce3]">
@@ -140,25 +111,7 @@ const ProcessTransparency = () => {
           </p>
         </div>
 
-        {/* Quality Metrics */}
-        <div className={`grid grid-cols-2 md:grid-cols-4 gap-6 mb-16 transform transition-all duration-1000 delay-200 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          {qualityMetrics?.map((metric, index) => (
-            <div key={metric?.id} className="bg-warm-cream rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-12 h-12 bg-heritage-green rounded-full flex items-center justify-center mx-auto mb-3">
-                <Icon name={metric?.icon} size={20} className="text-liquid-gold" />
-              </div>
-              <div className="font-heading text-2xl md:text-3xl font-bold text-heritage-green mb-1">
-                {metric?.metric}
-              </div>
-              <div className="font-semibold text-heritage-green mb-2">
-                {metric?.label}
-              </div>
-              <div className="text-heritage-green/70 text-sm">
-                {metric?.description}
-              </div>
-            </div>
-          ))}
-        </div>
+        
 
         {/* Interactive Process Steps */}
         <div className="max-w-6xl mx-auto">

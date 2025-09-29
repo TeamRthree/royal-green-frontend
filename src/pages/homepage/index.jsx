@@ -7,6 +7,7 @@ import TrustSection from './components/TrustSection';
 import HealthBenefitsPreview from './components/HealthBenefitsPreview';
 import ProcessTransparency from './components/ProcessTransparency';
 import CTASection from './components/CTASection';
+import Testimonial from './components/Testimonial';
 
 
 const Homepage = () => {
@@ -105,6 +106,8 @@ const Homepage = () => {
 
           {/* Process Transparency */}
           <ProcessTransparency />
+
+          <Testimonial/>
 
           {/* Call to Action Section */}
           <CTASection />

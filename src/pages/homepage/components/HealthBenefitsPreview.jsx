@@ -32,7 +32,7 @@ const HealthBenefitsPreview = () => {
     color: "text-red-500",
     bgColor: "bg-red-50",
     description: "Support cardiovascular wellness with oils that help maintain healthy cholesterol levels and promote circulation.",
-    image: "https://media.istockphoto.com/id/2204939987/photo/blood-pressure-glucose-and-weight-control-balanced-diet-and-exercising-for-a-healthy-living.jpg?s=612x612&w=0&k=20&c=uh-YrgdwUIOrTO0fkSGVT9KT7nJK9wLg56BfdPSnrXo=",
+    image: "https://media.istockphoto.com/id/2227309633/photo/doctor-holding-red-heart-symbol-in-hand-concept-of-healthcare-cardiology-and-medical-care.jpg?s=612x612&w=0&k=20&c=qilJyTN9kxEuUZiw8Xknduks-eVAVhcEZQZmchEXB80=",
     benefits: [
       "Reduces bad cholesterol (LDL)",
       "Supports healthy blood pressure",
@@ -70,7 +70,7 @@ const HealthBenefitsPreview = () => {
     color: "text-green-500",
     bgColor: "bg-green-50",
     description: "Enhance digestive health with easily digestible oils that support nutrient absorption and gut wellness.",
-    image: "https://media.istockphoto.com/id/1307095074/photo/adult-and-child-hands-holding-intestine-shape-healthy-bowel-degestion-leaky-gut-probiotics.jpg?s=612x612&w=0&k=20&c=WVtzvwAOtkoPHXSSzKgzArlXwUZmUWwoyAKbFcDfSqQ=",
+    image: "https://t3.ftcdn.net/jpg/15/61/21/14/240_F_1561211466_qBPs7zQzEdFc0lkIoVP1ZeONF0IKvX3W.jpg",
     benefits: [
       "Improves nutrient absorption",
       "Supports gut health",
@@ -98,26 +98,7 @@ const HealthBenefitsPreview = () => {
 ];
 
 
-  const wellnessStats = [
-    {
-      id: 1,
-      number: "95%",
-      label: "Customer Satisfaction",
-      description: "Report improved health"
-    },
-    {
-      id: 2,
-      number: "30+",
-      label: "Health Benefits",
-      description: "Scientifically documented"
-    },
-    {
-      id: 3,
-      number: "100%",
-      label: "Natural Ingredients",
-      description: "No artificial additives"
-    }
-  ];
+  
 
   return (
     <section id="health-benefits-preview" className="py-20 bg-background">
@@ -138,22 +119,6 @@ const HealthBenefitsPreview = () => {
           </p>
         </div>
 
-        {/* Wellness Stats */}
-        <div className={`grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 transform transition-all duration-1000 delay-200 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          {wellnessStats?.map((stat, index) => (
-            <div key={stat?.id} className="text-center bg-warm-cream rounded-2xl p-8 shadow-soft hover:shadow-premium transition-all duration-300">
-              <div className="font-heading text-4xl md:text-5xl font-bold text-liquid-gold mb-2">
-                {stat?.number}
-              </div>
-              <div className="font-heading text-xl font-semibold text-heritage-green mb-2">
-                {stat?.label}
-              </div>
-              <div className="text-heritage-green/70">
-                {stat?.description}
-              </div>
-            </div>
-          ))}
-        </div>
 
         {/* Interactive Health Categories */}
         <div className="max-w-6xl mx-auto">
@@ -263,42 +228,7 @@ const HealthBenefitsPreview = () => {
           </div>
         </div>
 
-        {/* CTA Section */}
-        <div className={`text-center mt-16 transform transition-all duration-1000 delay-800 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          <div className="bg-warm-cream rounded-3xl p-8 md:p-12 shadow-premium max-w-4xl mx-auto">
-            <h3 className="font-heading text-2xl md:text-3xl font-bold text-heritage-green mb-4">
-              Start Your Wellness Journey Today
-            </h3>
-            <p className="text-heritage-green/80 text-lg mb-8 max-w-2xl mx-auto">
-              Consult with our wellness experts to discover which oils are perfect for your family's health goals.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/contact">
-                <Button 
-                  variant="default" 
-                  size="lg"
-                  className="bg-liquid-gold hover:bg-liquid-gold-dark text-heritage-green font-semibold shadow-premium"
-                  
-                >
-                  Free Health Consultation
-                </Button>
-              </Link>
-              
-              <Link to="/health-benefits">
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  className="border-2 border-heritage-green text-heritage-green hover:bg-heritage-green hover:text-white"
-                  iconName="ArrowRight"
-                  iconPosition="right"
-                >
-                  Complete Health Guide
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

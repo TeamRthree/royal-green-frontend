@@ -26,15 +26,6 @@ const Footer = () => {
       ]
     },
     {
-      title: "Wellness",
-      links: [
-        { name: "Health Benefits", path: "/health-benefits" },
-        { name: "Usage Guides", path: "/health-benefits" },
-        { name: "Recipes", path: "/health-benefits" },
-        { name: "Expert Tips", path: "/health-benefits" }
-      ]
-    },
-    {
       title: "Support",
       links: [
         { name: "Contact Us", path: "/contact" },
@@ -110,7 +101,7 @@ const Footer = () => {
 
           {/* Footer Links */}
           {footerSections?.map((section, index) => (
-            <div key={index} className="space-y-4">
+            <div key={index} className=" space-y-4">
               <h4 className="font-heading text-lg font-semibold text-white">
                 {section?.title}
               </h4>

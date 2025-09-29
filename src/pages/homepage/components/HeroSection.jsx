@@ -89,17 +89,7 @@ const HeroSection = () => {
                   {heroSlides[currentSlide].cta}
                 </Button>
               </Link>
-              
-              <Link to="/contact">
-                <Button 
-                  variant="outline" 
-                  size="lg"
-                  className="border-2 border-warm-cream text-warm-cream hover:bg-warm-cream hover:text-heritage-green w-full sm:w-auto"
-                  
-                >
-                  Free Consultation
-                </Button>
-              </Link>
+      
             </div>
 
             {/* Trust Indicators */}
@@ -134,27 +124,28 @@ const HeroSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-heritage-green/30 via-transparent to-transparent"></div>
               </div>
 
-              {/* Floating Quality Badge */}
-              <div className="absolute -top-4 -right-4 bg-liquid-gold rounded-full p-6 shadow-premium certification-badge">
-                <div className="text-center">
-                  <Icon name="Award" size={24} className="text-heritage-green mx-auto mb-1" />
-                  <div className="text-heritage-green font-accent text-xs font-semibold">Premium</div>
-                  <div className="text-heritage-green font-accent text-xs">Quality</div>
-                </div>
-              </div>
+              
+             {/* Floating Quality Badge */}
+<div className="absolute -top-4 -right-4 certification-badge shadow-premium">
+  {/* Front Face */}
+  <div className="face front text-center">
+    <Icon name="Award" size={24} className="text-heritage-green mx-auto mb-1" />
+    <div className="text-heritage-green font-accent text-xs font-semibold">Premium</div>
+    <div className="text-heritage-green font-accent text-xs">Quality</div>
+  </div>
 
-              {/* Floating Stats */}
-              <div className="absolute -bottom-6 -left-6 bg-warm-cream rounded-2xl p-4 shadow-warm">
-                <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 bg-liquid-gold rounded-full flex items-center justify-center">
-                    <Icon name="Users" size={20} className="text-heritage-green" />
-                  </div>
-                  <div>
-                    <div className="text-heritage-green font-heading text-xl font-bold">10,000+</div>
-                    <div className="text-heritage-green/70 text-sm">Happy Families</div>
-                  </div>
-                </div>
-              </div>
+  {/* Back Face */}
+  <div className="face back text-center">
+    <Icon name="Award" size={24} className="text-heritage-green mx-auto mb-1" />
+    <div className="text-heritage-green font-accent text-xs font-semibold">Trusted</div>
+    <div className="text-heritage-green font-accent text-xs">Since 1990</div>
+  </div>
+</div>
+
+
+
+
+              
             </div>
           </div>
         </div>
